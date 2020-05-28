@@ -1,0 +1,94 @@
+/* body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.mobile-view {
+    height: 100%;
+    width: 100%;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+.rounded-card {
+    border-radius: 30px;
+}
+
+.rounded-mini-card {
+    border-radius: 20px;
+
+}
+
+.cardForImg {
+    background-image: url(https://www.doctor-4-u.co.uk/wp/wp-content/uploads/2020/02/485165_PR_130_SI_24_06_14_255-m-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.cardImg {
+    position: relative;
+    top: 0;
+}
+
+.miniCarousel {
+    width: 100vh;
+    overflow-y: scroll;
+}
+
+h4 {
+    font-weight: bolder;
+}
+
+.bg-blue {
+    background: #34ace0 !important;
+    color: white;
+}
+
+.docName {
+    font-weight: bold;
+    font-size: 1.3rem;
+    line-height: 0.1rem;
+}
+
+.bg-rose {
+    background: 
+    #e091ca;
+    color: white;
+}
+
+.bg-saumon {
+    background: 
+    #fbb97c;
+    color: white;
+
+}
+
+.bg-saum {
+    background: #f79383;
+    color: white;
+
+}
